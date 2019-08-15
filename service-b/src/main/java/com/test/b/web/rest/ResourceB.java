@@ -1,5 +1,6 @@
 package com.test.b.web.rest;
 
+import com.test.b.web.dto.EntityDTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -12,6 +12,8 @@ Get for entity B
 Post for entity A
 `POST http://localhost:8080/a/`
 
+Please check _Task.postman_collection.json_ for a Postman collection with some simple requests.
+
 ClassB is a bean defined in application context xml file packaged in jarB .
 
 Whole application should be one war file which can be deployed in a tomcat . Please send upload source and war file here or upload in github and send me the details, and I will check.
@@ -20,3 +22,11 @@ Use Eclipse IDE
 Use java 1.8
 Use gradle as build tool
 Use spring framework for REST service . l
+
+Please run the gradle IDE tasks before opening the project:
+
+`gradle idea`
+
+or 
+
+`gradle eclipse`

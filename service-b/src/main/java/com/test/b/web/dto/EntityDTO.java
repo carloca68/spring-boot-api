@@ -1,4 +1,4 @@
-package com.test.b.web.rest;
+package com.test.b.web.dto;
 
 public class EntityDTO {
     private Integer id;

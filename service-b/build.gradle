@@ -24,8 +24,18 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
+
+    testImplementation "org.junit.jupiter:junit-jupiter-api"
+    testImplementation "org.junit.jupiter:junit-jupiter-engine"
+    testImplementation "org.junit.platform:junit-platform-runner"
+    testImplementation 'com.h2database:h2'
 }
 
 dependencyManagement {
     imports { mavenBom("org.springframework.boot:spring-boot-dependencies:${springBootVersion}") }
+}
+
+test {
+    useJUnitPlatform {
+    }
 }
