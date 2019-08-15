@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "2f5ddab6-346b-4cc7-bea1-e09888376bd3",
+		"name": "Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get B",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/b/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"b",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post A",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Encoding",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"test\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"a"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

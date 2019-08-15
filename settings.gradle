@@ -1,0 +1,6 @@
+
+rootProject.name = 'task'
+
+include 'app'
+include 'service-a'
+include 'service-b'
